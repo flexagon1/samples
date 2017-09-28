@@ -1,2 +1,2 @@
 # samples
-sample applications
+sample applications (Java, JET, Node.js)
