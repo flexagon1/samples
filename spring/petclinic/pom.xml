@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.flexagon.samples</groupId>
-    <artifactId>mobile-banking-app</artifactId>
+    <artifactId>petclinic-app</artifactId>
     <version>4.2.4</version>
 
-    <name>banking</name>
+    <name>petclinic</name>
     <packaging>war</packaging>
 
     <properties>
@@ -315,7 +315,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.3</version>
                 <configuration>
-                    <warName>banking</warName>
+                    <warName>petclinic</warName>
                 </configuration>
             </plugin>
             <plugin>
@@ -361,7 +361,7 @@
                 <configuration>
                     <server>tomcat-development-server</server>
                     <port>9966</port>
-                    <path>/banking</path>
+                    <path>/petclinic</path>
                 </configuration>
             </plugin>
             <plugin>
@@ -428,5 +428,5 @@
 		</profile>
    </profiles>
 
-    <url>banking</url>
+    <url>petclinic</url>
 </project>

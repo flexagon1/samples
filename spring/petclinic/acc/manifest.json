@@ -2,11 +2,11 @@
     "runtime": {
         "majorVersion": "8"
     },
-    "command": "java -jar banking.war",
+    "command": "java -jar petclinic.war",
     "release": {
         "build": "23",
         "commit": "commitString",
         "version": "v2.0"
     },
-    "notes": "Mobile Banking App"
+    "notes": "Petclinic App"
 }
