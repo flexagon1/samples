@@ -2,6 +2,8 @@ var http = require('http');
 
 var PORT = process.env.PORT || 80;
 
+console.log("got here");
+
 var topicList = [];
 var topicDetail = {};
 var currentId = 123;
