@@ -2,7 +2,7 @@ var http = require('http');
 
 var PORT = process.env.PORT || 80;
 
-console.log("hi");
+console.log("hello");
 
 var topicList = [];
 var topicDetail = {};
